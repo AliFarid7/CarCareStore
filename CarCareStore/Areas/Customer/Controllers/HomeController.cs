@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using GraniteOnlineStore.Models;
+using CarCareStore.Models;
 
-namespace GraniteOnlineStore.Controllers
+namespace CarCareStore.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller
@@ -18,7 +18,7 @@ namespace GraniteOnlineStore.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your request description page.";
 
             return View();
         }

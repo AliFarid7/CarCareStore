@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using GraniteOnlineStore.Data;
-using GraniteOnlineStore.Models;
+using CarCareStore.Data;
+using CarCareStore.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GraniteOnlineStore.Areas.Admin.Controllers
+namespace CarCareStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductTypesController : Controller
